@@ -1,0 +1,54 @@
+//media qurey
+
+@media (max-width:991px){
+    html{
+        font-size: 50%; 
+    }
+    header{
+        padding:1rem 2rem;
+    }
+  
+    #search-form #search-box{
+     width: 90%;  
+     margin: 0 1rem;
+    }
+    section{
+        padding:2rem;
+    }
+    .order form .inputBox .input{
+        width: 100%!important;
+    }
+}
+
+
+@media (max-width:768px){
+   header .icons #menu-bars{
+       display:inline-block!important;
+   }
+  
+  header .navbar{
+      position: absolute;
+      top:100%;
+      left:0;
+      right:0;
+      background-color: #fff;
+      padding: 1rem;
+      border-top: .1rem solid rgba(0,0,0,.1);
+      border-bottom: .1rem solid rgba(0,0,0,.1);
+      clip-path: polygon(0 0,100% 0,100% 0,0 0);
+      a{
+          display: block;
+          background-color: #fff;
+          margin: 1rem;
+          padding: 1.5rem;
+          font-size: 2rem;
+      }
+  }
+  header .navbar.active{
+      clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  }
+  .dishes .box-container .box img{
+      height: auto !important;;
+      width: 100%!important;
+  }
+}
